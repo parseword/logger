@@ -1,0 +1,29 @@
+{
+    "name": "parseword/logger",
+    "type": "library",
+    "description": "A PHP class implementing a text file logging facility",
+    "keywords": ["php","logger","text"],
+    "homepage": "https://github.com/parseword/logger/",
+    "readme": "https://github.com/parseword/logger/blob/master/README.md",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Shaun Cummiskey",
+            "email": "shaun@shaunc.com",
+            "homepage": "https://shaunc.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/parseword/logger/"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "parseword\\logger\\": "src"
+        }
+    }
+}
+
