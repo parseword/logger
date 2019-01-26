@@ -31,6 +31,7 @@ written. Messages with lower severity will be disregarded.
 ```php
 <?php
 //Set up the logger in your config or global include file
+use parseword\logger\Logger;
 Logger::setFilename('/tmp/my.log');
 Logger::setSeverityFilter(Logger::SEVERITY_WARNING);
 Logger::setLabel('myCoolApp');
