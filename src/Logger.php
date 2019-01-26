@@ -116,7 +116,7 @@ class Logger
     /**
      * Return the singleton instance of this class, creating it first if needed.
      *
-     * @return \parseword\phorml\Logger
+     * @return \parseword\logger\Logger
      */
     public static function getInstance(): Logger {
         if (empty(self::$instance)) {
